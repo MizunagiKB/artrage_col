@@ -4,12 +4,9 @@ import argparse
 import json
 import struct
 import requests
-#import bs4
 
 import PIL
 import PIL.Image
-
-list_x = [380, 748, 1156, 1543, 1940, 2312, 2716, 3096, 3488, 3872]
 
 
 def color_download(dict_input):
