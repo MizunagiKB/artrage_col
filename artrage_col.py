@@ -47,7 +47,7 @@ def color_sampling(dict_input):
                 break
 
     with open(dict_input["name"], "w") as f:
-        json.dump({"colors": list_color}, f)
+        json.dump({"colors": list_color}, f, indent=True)
 
     return list_color
 
