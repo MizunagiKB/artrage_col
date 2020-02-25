@@ -27,17 +27,18 @@ def color_sampling(dict_input):
 
     color_number = 0
     list_color = []
-    for row in range(14):
+    for row in range(dict_input["row_count"]):
         y = dict_input["row_size"] * row
-        y += 16
+        y += dict_input["adjust_y"]
 
-        for col in range(10):
+        for col in range(dict_input["col_count"]):
             x = dict_input["col_size"] * col
-            x += 120
+            x += dict_input["adjust_x"]
 
             col_r, col_g, col_b = o_image.getpixel((x, y))[0:3]
             dict_color = {
                 "name": dict_input["color_name"][len(list_color)],
+                "pixel": [x, y],
                 "idx": len(list_color),
                 "color": [col_r, col_g, col_b, 0xFF]
             }
