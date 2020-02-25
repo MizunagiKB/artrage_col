@@ -2,7 +2,7 @@
 
 [NEOPIKO Color](https://github.com/MizunagiKB/artrage_col/blob/master/neopiko_144.col)
 
-![NEOPIKO Color](./sample/neopiko_144.png|width=50)
+![NEOPIKO Color](./sample/neopiko_144.png)
 
 [NEOPIKO2](https://github.com/MizunagiKB/artrage_col/blob/master/neopiko2_144.col)
 
